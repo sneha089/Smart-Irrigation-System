@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Prediction System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 40px;
+            width: 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            background-color: #00f2fe;
+            color: white;
+            padding: 15px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 250px;
+            margin: 10px 0;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #4facfe;
+        }
+
+        .button:active {
+            background-color: #00d1d1;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Agriculture Prediction System</h1>
+        <p>Select the option that suits your need:</p>
+
+        <div class="button-container">
+            <a href="/crop_recommendation">
+                <button class="button">Farmer: Crop Recommendation</button>
+            </a>
+            <a href="/yield_prediction">
+                <button class="button">Investor: Crop Yield Prediction</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
